@@ -1,0 +1,71 @@
+/* Importa a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&family=Roboto+Slab:wght@200&display=swap');
+
+body {
+  background-color: rgb(240,240,240);
+  font-family: 'Roboto Slab', serif;;
+  color: rgb(56,57,72);
+  font-size: 16px;
+  line-height: 1.5em ;
+}
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(70,140,152);
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: normal;
+}
+
+a {
+  color: rgb(56,57,72);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(70,140,152);
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 5px 0;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
