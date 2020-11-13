@@ -25,6 +25,26 @@ a:hover {
   color: rgb(70,140,152);
 }
 
+#btn-about_me {
+  background-color: rgb(70,140,152);
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#btn-about_me:hover {
+  border: 2px solid rgb(70,140,152);
+  background-color: white;
+  color: rgb(70,140,152);
+}
+
+
 .container {
   width: 500px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
@@ -46,9 +66,23 @@ a:hover {
   text-align: center;
 }
 
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+.social ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 100px
 }
 
 @media (max-width: 960px) {
